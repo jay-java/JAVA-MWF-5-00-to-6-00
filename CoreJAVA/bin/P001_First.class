@@ -1,0 +1,8 @@
+Êþº¾   = "  
+P001_First  java/lang/Object <init> ()V Code
+  	   LineNumberTable LocalVariableTable this LP001_First; main ([Ljava/lang/String;)V	    java/lang/System   out Ljava/io/PrintStream;  hello
+    java/io/PrintSt   println (Ljava/lang/String;)V args [Ljava/lang/String; 
+SourceFile P001_First.java !sdfgf               /     *· ±    
+                    	       7     	² ¶ ±    
+   
+              	           !
