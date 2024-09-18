@@ -1,0 +1,22 @@
+package core;
+class Data{
+	int id;
+	String name;
+	static String col = "TOPS";
+	public void setData() {
+		
+	}
+	public void getData() {
+		System.out.println("id : "+id+" name : "+name+" col : "+col);
+	}
+	public static void show() {
+		System.out.println("static fun in data class");
+	}
+}
+public class P009_Static {
+	public static void main(String[] args) {
+		Data d = new  Data();
+		d.getData();
+		d.show();
+	}
+}

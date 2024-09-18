@@ -1,0 +1,10 @@
+package core;
+class QQ{
+	
+}
+public class P009_Static {
+	public static void main(String[] args) {
+		QQ q = new QQ();
+		q.change();
+	}
+}

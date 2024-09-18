@@ -1,0 +1,11 @@
+package core;
+
+public class P008_String {
+	public static void main(String[] args) {
+		char name[] = {'J','A','V','A'};
+		System.out.println(name);
+		String n1 = "java3465*U^&%%*   sgrfg";
+		System.out.println(n1);
+		System.out.println(n1.length());
+	}
+}

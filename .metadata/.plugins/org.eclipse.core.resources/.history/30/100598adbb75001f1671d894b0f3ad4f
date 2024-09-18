@@ -1,0 +1,12 @@
+package core;
+class Data{
+	static int i =1;
+	public void change() {
+		i++;
+		System.out.println(i);
+	}
+}
+public class P009_Static {
+	public static void main(String[] args) {
+	}
+}
