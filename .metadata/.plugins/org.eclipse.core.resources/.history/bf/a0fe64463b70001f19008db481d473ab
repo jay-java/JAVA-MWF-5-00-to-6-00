@@ -1,9 +1,0 @@
-package core;
-//Primitive->byte,short,int,long,float,double,char,boolean
-//non-primitive -> Array,String,class
-public class P003_DataType {
-	public static void main(String[] args) {
-		byte b =12;
-		System.out.println(b);
-	}
-}

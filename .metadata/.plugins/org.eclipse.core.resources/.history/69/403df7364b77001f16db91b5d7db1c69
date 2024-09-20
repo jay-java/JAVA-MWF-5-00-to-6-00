@@ -1,0 +1,14 @@
+package core;
+class Employee{
+	int id;
+	String name;
+	double salary;
+	Employee(){
+		System.out.println("default cons");
+	}
+}
+public class P010_Constructor {
+	public static void main(String[] args) {
+		
+	}
+}

@@ -1,7 +1,0 @@
-package core;
-
-public class P002_MainMethod {
-	public static void main(String[] args) {
-		
-	}
-}
