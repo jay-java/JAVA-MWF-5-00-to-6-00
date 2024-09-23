@@ -1,0 +1,19 @@
+package core;
+
+class A{
+	public void classA() {
+		System.out.println("class A");
+	}
+}
+class B extends A{
+	public void classB() {
+		System.out.println("class B");
+	}
+}
+public class P012_Inheritance {
+	public static void main(String[] args) {
+		B b = new B();
+		b.classA();
+		b.classB();
+	}
+}

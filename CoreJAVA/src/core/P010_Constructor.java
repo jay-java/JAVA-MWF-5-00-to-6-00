@@ -24,6 +24,7 @@ class Employee{
 public class P010_Constructor {
 	public static void main(String[] args) {
 		Employee e1 = new Employee();
+		e1.show();
 		Employee e2 = new Employee(1, "java", 3454.34);
 		e2.show();
 		Employee e3 = new Employee(e2);

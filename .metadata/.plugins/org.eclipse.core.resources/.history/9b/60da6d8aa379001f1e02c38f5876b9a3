@@ -1,0 +1,27 @@
+package core;
+
+class A{
+	A(){
+		System.out.println("default cons in A");
+	}
+	public void classA() {
+		System.out.println("class A");
+	}
+}
+class B extends A{
+	public void classB() {
+		System.out.println("class B");
+	}
+}
+class C extends B{
+	public void classC() {
+		System.out.println("class C");
+	}
+}
+public class P012_Inheritance {
+	public static void main(String[] args) {
+		B b = new B();
+		b.classA();
+		b.classB();
+	}
+}

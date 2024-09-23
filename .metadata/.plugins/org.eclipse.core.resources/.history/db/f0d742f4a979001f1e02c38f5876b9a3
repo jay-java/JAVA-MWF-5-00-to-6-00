@@ -1,0 +1,9 @@
+package core;
+class RBI{
+	abstract public void HL();
+}
+public class P014_Abstraction {
+	public static void main(String[] args) {
+		
+	}
+}

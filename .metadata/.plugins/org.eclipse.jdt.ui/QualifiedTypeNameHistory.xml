@@ -5,4 +5,6 @@
     <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
     <fullyQualifiedTypeName name="core.QQ"/>
     <fullyQualifiedTypeName name="core.Data"/>
+    <fullyQualifiedTypeName name="core.Employee"/>
+    <fullyQualifiedTypeName name="core.Student"/>
 </qualifiedTypeNameHistroy>

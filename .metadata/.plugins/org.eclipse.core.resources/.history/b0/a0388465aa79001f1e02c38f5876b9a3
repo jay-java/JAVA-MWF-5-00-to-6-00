@@ -1,0 +1,37 @@
+package core;
+abstract class RBI{
+	abstract public void HL();
+	abstract public void PL();
+}
+class HDFC extends RBI{
+	public void HL() {
+		System.out.println("HDFC HL : 7%");
+	}
+	public void PL() {
+		System.out.println("HDFC PL 8%");
+	}
+	
+}
+class SBI extends RBI{
+	public void HL() {
+		System.out.println("HDFC HL : 8%");
+	}
+	public void PL() {
+		System.out.println("HDFC PL 9%");
+	}
+	
+}
+class JAVA extends RBI{
+	public void HL() {
+		System.out.println("HDFC HL : 9%");
+	}
+	public void PL() {
+		
+	}
+	
+}
+public class P014_Abstraction {
+	public static void main(String[] args) {
+		
+	}
+}
