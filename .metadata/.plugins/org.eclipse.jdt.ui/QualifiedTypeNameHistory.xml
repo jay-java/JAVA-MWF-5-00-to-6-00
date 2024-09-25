@@ -7,4 +7,9 @@
     <fullyQualifiedTypeName name="core.Data"/>
     <fullyQualifiedTypeName name="core.Employee"/>
     <fullyQualifiedTypeName name="core.Student"/>
+    <fullyQualifiedTypeName name="core.Overload"/>
+    <fullyQualifiedTypeName name="core.Override"/>
+    <fullyQualifiedTypeName name="core.HDFC"/>
+    <fullyQualifiedTypeName name="core.SBI"/>
+    <fullyQualifiedTypeName name="core.JAVA"/>
 </qualifiedTypeNameHistroy>

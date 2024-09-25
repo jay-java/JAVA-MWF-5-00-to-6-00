@@ -1,0 +1,8 @@
+package core;
+//checked-compiletime
+//unchecked-runtime
+public class P016_Exception {
+	public static void main(String[] args) {
+		
+	}
+}
