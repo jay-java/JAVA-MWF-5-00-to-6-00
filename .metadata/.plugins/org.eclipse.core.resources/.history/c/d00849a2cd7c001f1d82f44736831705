@@ -1,0 +1,7 @@
+package core;
+
+public class P020_Thread {
+	public static void main(String[] args) {
+		
+	}
+}

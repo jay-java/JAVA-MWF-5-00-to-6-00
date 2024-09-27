@@ -1,0 +1,14 @@
+package core;
+
+import java.io.FileWriter;
+import java.io.IOException;
+
+public class P018_FileWriter {
+	public static void main(String[] args) throws IOException {
+		String msg = "msg by file writer and reader class";
+		FileWriter fr = new FileWriter("t2.txt");
+		fr.write(msg);
+		fr.flush();
+		fr.close();
+	}
+}
