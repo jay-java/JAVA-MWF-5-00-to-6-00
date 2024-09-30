@@ -1,0 +1,9 @@
+package core;
+class Mobile{
+	
+}
+public class P023_listPrac {
+	public static void main(String[] args) {
+		
+	}
+}

@@ -1,9 +1,0 @@
-package core;
-class Employeee{
-	
-}
-public class P010_Constructor {
-	public static void main(String[] args) {
-		
-	}
-}

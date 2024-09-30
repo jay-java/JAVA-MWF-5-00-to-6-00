@@ -1,0 +1,27 @@
+package core;
+class Mobile{
+	int ram;
+	String model;
+	double price;
+	
+	public Mobile(int ram, String model, double price) {
+		super();
+		this.ram = ram;
+		this.model = model;
+		this.price = price;
+	}
+
+	public String toString() {
+		return "Mobile [ram=" + ram + ", model=" + model + ", price=" + price + "]";
+	}
+	
+}
+public class P023_listPrac {
+	public static void main(String[] args) {
+		Mobile m1 = new Mobile(8, "vivo", 9780);
+		Mobile m1 = new Mobile(10, "samsug", 9780);
+		Mobile m1 = new Mobile(12, "apple", 9780);
+		Mobile m1 = new Mobile(14, "asus", 9780);
+		Mobile m1 = new Mobile(16, "heuwai", 9780);
+	}
+}

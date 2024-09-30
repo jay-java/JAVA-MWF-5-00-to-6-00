@@ -1,0 +1,18 @@
+package core;
+class Mobile{
+	int ram;
+	String model;
+	double price;
+	
+	
+	
+	public String toString() {
+		return "Mobile [ram=" + ram + ", model=" + model + ", price=" + price + "]";
+	}
+	
+}
+public class P023_listPrac {
+	public static void main(String[] args) {
+		
+	}
+}

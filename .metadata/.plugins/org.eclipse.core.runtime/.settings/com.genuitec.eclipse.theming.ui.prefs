@@ -1,9 +1,11 @@
 applyBackground=false
 approved.defs.file.last.changed.time=1693315978000
-configurationInstallLocation=/C\:/Users/jay-pc/eclipse/jee-2024-032/eclipse/
+configurationInstallLocation=/C\:/Users/jay-pc/eclipse/jee-2024-09/eclipse/
+ct.upsell.display.after=1728304023783
 eclipse.preferences.version=1
 iconcolormode=primary
-last.download.attempt.time=1727264226018
-lastConfiguration=1727437494481
-newinstall=true
+last.download.attempt.time=1727699223460
+lastConfiguration=1727699213710
+newinstall=false
+showWelcomeDialog=false
 workbench.theme=Dark Gray
