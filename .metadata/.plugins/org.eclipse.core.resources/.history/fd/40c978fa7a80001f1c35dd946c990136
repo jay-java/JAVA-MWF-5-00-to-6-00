@@ -1,0 +1,18 @@
+package core;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class P026_Map {
+	public static void main(String[] args) {
+		Map map = new HashMap();
+		map.put(1, "c");
+		map.put(1, "c");
+		map.put(1, "c");
+		map.put(1, "c");
+		map.put(1, "c");
+		map.put(1, "c");
+		map.put(1, "c");
+		System.out.println(map);
+	}
+}

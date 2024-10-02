@@ -1,0 +1,11 @@
+package core;
+
+import java.util.Set;
+import java.util.TreeSet;
+
+public class P025_TreeSet {
+	public static void main(String[] args) {
+		Set set = new TreeSet();
+		
+	}
+}

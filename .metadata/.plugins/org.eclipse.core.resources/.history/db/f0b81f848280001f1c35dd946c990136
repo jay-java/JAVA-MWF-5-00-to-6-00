@@ -1,0 +1,41 @@
+package core;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JTextField;
+
+class SwingDemo{
+	JButton b1,b2,b3,b4;
+	JTextField t1,t2,t3,t4;
+	JLabel l1,l2,l3,l4;
+	public SwingDemo() {
+		JFrame fr = new JFrame("AppName");
+		fr.setVisible(true);
+		fr.setLayout(null);
+		fr.setSize(700, 500);
+		
+		l1 =new JLabel("Id : ");
+		l1.setBounds(100, 100, 120, 20);
+		fr.add(l1);
+
+		l2 =new JLabel("Id : ");
+		l2.setBounds(100, 100, 120, 20);
+		fr.add(l2);
+
+		l3 =new JLabel("Id : ");
+		l3.setBounds(100, 100, 120, 20);
+		fr.add(l3);
+
+		l4 =new JLabel("Id : ");
+		l4.setBounds(100, 100, 120, 20);
+		fr.add(l4);
+		
+
+	}
+}
+public class P028_Swing {
+	public static void main(String[] args) {
+		new SwingDemo();
+	}
+}

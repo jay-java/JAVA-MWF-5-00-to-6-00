@@ -1,0 +1,9 @@
+package core;
+class SwingDemo{
+	
+}
+public class P028_Swing {
+	public static void main(String[] args) {
+		
+	}
+}

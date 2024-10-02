@@ -1,0 +1,14 @@
+package core;
+
+import javax.swing.JFrame;
+
+class SwingDemo{
+	public SwingDemo() {
+		JFrame fr = new JFrame("AppName");
+	}
+}
+public class P028_Swing {
+	public static void main(String[] args) {
+		
+	}
+}
