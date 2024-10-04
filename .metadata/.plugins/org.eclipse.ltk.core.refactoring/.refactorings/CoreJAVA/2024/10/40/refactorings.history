@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;core.P029_Funciton&apos; to &apos;P029_Function&apos;&#x0D;&#x0A;- Original project: &apos;CoreJAVA&apos;&#x0D;&#x0A;- Original element: &apos;core.P029_Funciton&apos;&#x0D;&#x0A;- Renamed element: &apos;core.P029_Function&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;P029_Funciton&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;core{P029_Funciton.java[P029_Funciton" matchStrategy="1" name="P029_Function" qualified="false" references="true" similarDeclarations="false" stamp="1728044146963" textual="false" version="1.0"/>
+</session>

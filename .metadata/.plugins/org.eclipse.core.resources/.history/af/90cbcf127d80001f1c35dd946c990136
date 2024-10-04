@@ -1,7 +1,0 @@
-package core;
-
-public class P028_Swing {
-	public static void main(String[] args) {
-		
-	}
-}

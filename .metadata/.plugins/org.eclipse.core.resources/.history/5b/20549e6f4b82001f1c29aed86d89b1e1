@@ -1,0 +1,14 @@
+package core;
+class QQQQ{
+	public boolean login(String email,String pass) {
+		System.out.println("call in QQQQ class");
+		return 1234;
+	}
+}
+public class P029_Function {
+	public static void main(String[] args) {
+		QQQQ q = new QQQQ();
+		int res =  q.call();
+		System.out.println(res);
+	}
+}

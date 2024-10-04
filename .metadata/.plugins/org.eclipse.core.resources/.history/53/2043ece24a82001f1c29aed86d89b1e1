@@ -1,0 +1,13 @@
+package core;
+class QQQQ{
+	public double call() {
+		System.out.println("call in QQQQ class");
+		return 123;
+	}
+}
+public class P029_Function {
+	public static void main(String[] args) {
+		QQQQ q = new QQQQ();
+		q.call();
+	}
+}
