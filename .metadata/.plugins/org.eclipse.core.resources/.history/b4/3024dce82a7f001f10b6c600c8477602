@@ -1,9 +1,0 @@
-package core;
-class Student{
-	
-}
-public class P023_listPrac {
-	public static void main(String[] args) {
-		
-	}
-}

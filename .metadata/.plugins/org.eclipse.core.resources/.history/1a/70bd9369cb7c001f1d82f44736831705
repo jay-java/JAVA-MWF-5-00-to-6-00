@@ -1,9 +1,0 @@
-package core;
-class Laptop{
-	
-}
-public class P019_Serailization {
-	public static void main(String[] args) {
-		
-	}
-}

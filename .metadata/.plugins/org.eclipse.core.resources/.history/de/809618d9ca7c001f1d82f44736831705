@@ -1,7 +1,0 @@
-package core;
-
-public class P018_FileWriter {
-	public static void main(String[] args) {
-		
-	}
-}
