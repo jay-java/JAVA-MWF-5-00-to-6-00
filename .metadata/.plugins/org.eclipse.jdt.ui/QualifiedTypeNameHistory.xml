@@ -52,4 +52,5 @@
     <fullyQualifiedTypeName name="javax.swing.JFrame"/>
     <fullyQualifiedTypeName name="javax.swing.JLabel"/>
     <fullyQualifiedTypeName name="core.DataNotFound"/>
+    <fullyQualifiedTypeName name="model.User"/>
 </qualifiedTypeNameHistroy>
