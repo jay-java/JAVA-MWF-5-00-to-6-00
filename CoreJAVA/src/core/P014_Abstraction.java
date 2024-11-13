@@ -41,6 +41,7 @@ public class P014_Abstraction {
 		HDFC h = new HDFC();
 		h.HL();
 		h.PL();
+		h.repoRate();
 		HDFC.repoRate();
 		SBI s=  new SBI();
 		s.HL();

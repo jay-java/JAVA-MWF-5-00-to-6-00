@@ -64,8 +64,13 @@
 					<td><%=u1.getAddress()%></td>
 					<td><%=u1.getEmail()%></td>
 					<td><%=u1.getPassword()%></td>
-					<td>Edit</td>
-					<td>delete</td>
+					<td>
+					<form action="UserController" method="post">
+						<input type="hidden" name="id" value="<%=u1.getId()%>">
+						<input type="submit" name="action" value="edit">
+					</form>
+					</td>
+					<td><a href="delete.jsp?id=<%=u1.getId()%>">Delete</a></td>
 				</tr>
 				<%
 				}
