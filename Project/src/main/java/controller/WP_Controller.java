@@ -1,6 +1,8 @@
 package controller;
 
 import java.io.IOException;
+import java.util.Random;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -9,6 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
 import dao.WeddingPlannerDao;
+import email_service.Servicesss;
 import model.WeddingPlanner;
 
 /**
@@ -90,6 +93,44 @@ public class WP_Controller extends HttpServlet {
 			HttpSession session = request.getSession();
 			session.setAttribute("data", u);
 			request.getRequestDispatcher("w-home.jsp").forward(request, response);
+		}
+		else if(action.equalsIgnoreCase("cp")) {
+			String email  = request.getParameter("email");
+			String op  = request.getParameter("op");
+			String np  = request.getParameter("np");
+			String cnp  = request.getParameter("cnp");
+			boolean flag= WeddingPlannerDao.checkPassword(email, op);
+			if(flag == true) {
+				if(np.equals(cnp)) {
+					WeddingPlannerDao.updatePassword(email, np);
+					response.sendRedirect("w-home.jsp");
+				}
+				else {
+					request.setAttribute("msg", "New pass and Confirm new pass not matched");
+					request.getRequestDispatcher("w-change-password.jsp").forward(request, response);
+				}
+			}
+			else {
+				request.setAttribute("msg", "Old pass is incorrect");
+				request.getRequestDispatcher("w-change-password.jsp").forward(request, response);
+			}
+		}
+		else if(action.equalsIgnoreCase("getotp")) {
+			String email  = request.getParameter("email");
+			boolean flag =  WeddingPlannerDao.checkEmail(email);
+			if(flag == true) {
+				Random r = new Random();
+				int num = r.nextInt(999999);
+				Servicesss s = new Servicesss();
+				s.sendMail(email, num);
+				request.setAttribute("email", email);
+				request.setAttribute("otp", num);
+				request.getRequestDispatcher("wp-verify-otp.jsp").forward(request, response);
+			}
+			else {
+				request.setAttribute("msg", "Account not found");
+				request.getRequestDispatcher("w-forgot-password.jsp").forward(request, response);
+			}
 		}
 	}
 
