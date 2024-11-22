@@ -132,6 +132,34 @@ public class WP_Controller extends HttpServlet {
 				request.getRequestDispatcher("w-forgot-password.jsp").forward(request, response);
 			}
 		}
+		else if(action.equalsIgnoreCase("verify")) {
+			String email  = request.getParameter("email");
+			int otp1 = Integer.parseInt(request.getParameter("otp1"));
+			int otp2 = Integer.parseInt(request.getParameter("otp2"));
+			if(otp1 == otp2) {
+				request.setAttribute("email", email);
+				request.getRequestDispatcher("w-new-pass.jsp").forward(request, response);
+			}
+			else {
+				request.setAttribute("msg", "OTP not matched");
+				request.setAttribute("email", email);
+				request.setAttribute("otp", otp1);
+				request.getRequestDispatcher("wp-verify-otp.jsp").forward(request, response);
+			}
+		}
+		else if(action.equalsIgnoreCase("cnp")) {
+			String email  = request.getParameter("email");
+			String np  = request.getParameter("np");
+			String cnp  = request.getParameter("cnp");
+			if(np.equals(cnp)) {
+				WeddingPlannerDao.updatePassword(email, np);
+				response.sendRedirect("w-login.jsp");
+			}
+			else {
+				request.setAttribute("msg", "NP and CNP not same");
+				request.getRequestDispatcher("w-new-pass.jsp").forward(request, response);
+			}
+		}
 	}
 
 }

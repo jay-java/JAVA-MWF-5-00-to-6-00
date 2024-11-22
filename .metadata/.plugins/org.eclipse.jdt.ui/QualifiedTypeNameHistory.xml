@@ -58,4 +58,6 @@
     <fullyQualifiedTypeName name="model.WeddingPlanner"/>
     <fullyQualifiedTypeName name="db_connection.DBConnection"/>
     <fullyQualifiedTypeName name="dao.WeddingPlannerDao"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="email_service.Servicesss"/>
 </qualifiedTypeNameHistroy>
