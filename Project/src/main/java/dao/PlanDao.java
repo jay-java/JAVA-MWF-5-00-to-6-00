@@ -53,5 +53,67 @@ public class PlanDao {
 		}
 		return list;
 	}
+	
+	public static Plans getPlanByPId(int pid) {
+		Plans p  = null;
+		try {
+			Connection conn = DBConnection.createConnection();
+			String sql = "select * from plans where pid=?";
+			PreparedStatement pst = conn.prepareStatement(sql);
+			pst.setInt(1, pid);
+			ResultSet rs = pst.executeQuery();
+			if(rs.next()) {
+				p = new Plans();
+				p.setPid(rs.getInt("pid"));
+				p.setWp_id(rs.getInt("wp_id"));
+				p.setBudget(rs.getString("budget"));
+				p.setStyle(rs.getString("style"));
+				p.setNoofguest(rs.getInt("noofguest"));
+				p.setVanue(rs.getString("vanue"));
+				p.setPhotosvideos(rs.getString("photosvideos"));
+				p.setNoofguestfortransport(rs.getString("noofguestfortransport"));
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return p;
+	}
+	public static void deletePlan(int pid) {
+		try {
+			Connection conn = DBConnection.createConnection();
+			String sql = "delete from plans where pid=?";
+			PreparedStatement pst = conn.prepareStatement(sql);
+			pst.setInt(1, pid);
+			pst.executeUpdate();
+			System.out.println("plan deleted");
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	public static List<Plans> getAllPlan() {
+		List<Plans> list= new ArrayList<Plans>();
+		try {
+			Connection conn = DBConnection.createConnection();
+			String sql = "select * from plans";
+			PreparedStatement pst = conn.prepareStatement(sql);
+			ResultSet rs = pst.executeQuery();
+			while(rs.next()) {
+				Plans p = new Plans();
+				p.setPid(rs.getInt("pid"));
+				p.setWp_id(rs.getInt("wp_id"));
+				p.setBudget(rs.getString("budget"));
+				p.setStyle(rs.getString("style"));
+				p.setNoofguest(rs.getInt("noofguest"));
+				p.setVanue(rs.getString("vanue"));
+				p.setPhotosvideos(rs.getString("photosvideos"));
+				p.setNoofguestfortransport(rs.getString("noofguestfortransport"));
+				list.add(p);
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return list;
+	}
+	
 }
  

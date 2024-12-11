@@ -27,18 +27,18 @@
                                         <div class="form_heading text-center">
                                             <h3>Customer</h3>
                                         </div>
-                                        <form action="#">
+                                        <form action="CustomerController" method="post">
                                             <div class="row">
                                               
                                                 <div class="col-xl-12">
-                                                    <input type="text" placeholder="Email">
+                                                    <input type="text" name="email" placeholder="Email">
                                                 </div>
                                                 <div class="col-xl-12">
-                                                    <input type="text" placeholder="Your Password">
+                                                    <input type="text" name="password" placeholder="Your Password">
                                                 </div>
                                                
                                                 <div class="col-xl-12">
-                                                    <button type="submit" class="boxed_btn3">Register</button>
+                                                    <button type="submit" name="action" value="login" class="boxed_btn3">Login</button>
                                                 </div>
                                             </div>
                                         </form>

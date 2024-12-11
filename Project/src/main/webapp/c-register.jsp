@@ -27,26 +27,26 @@
                                         <div class="form_heading text-center">
                                             <h3>Customer</h3>
                                         </div>
-                                        <form action="#">
+                                        <form action="CustomerController" method="post">
                                             <div class="row">
                                                 <div class="col-xl-12">
-                                                    <input type="text" placeholder="Your Name">
+                                                    <input type="text" name="name" placeholder="Your Name">
                                                 </div>
                                                  <div class="col-xl-12">
-                                                    <input type="text" placeholder="Your Contact">
+                                                    <input type="text" name="contact" placeholder="Your Contact">
                                                 </div>
                                                  <div class="col-xl-12">
-                                                    <input type="text" placeholder="Your Address">
+                                                    <input type="text" name="address" placeholder="Your Address">
                                                 </div>
                                                 <div class="col-xl-12">
-                                                    <input type="text" placeholder="Email">
+                                                    <input type="text" name="email" placeholder="Email">
                                                 </div>
                                                 <div class="col-xl-12">
-                                                    <input type="text" placeholder="Your Password">
+                                                    <input type="text" name="password" placeholder="Your Password">
                                                 </div>
                                                
                                                 <div class="col-xl-12">
-                                                    <button type="submit" class="boxed_btn3">Register</button>
+                                                    <button type="submit" name="action" value="register" class="boxed_btn3">Register</button>
                                                 </div>
                                             </div>
                                         </form>
