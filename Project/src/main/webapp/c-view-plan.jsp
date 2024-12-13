@@ -35,7 +35,9 @@
 					<li class="list-group-item">Photos Videos : <%=p.getPhotosvideos() %></li>
 					<li class="list-group-item">No of Guest Tra: <%=p.getNoofguestfortransport() %></li>
 				</ul>
-				<div class="text-center"><a href="#">Book Now</a></div>
+				<div class="text-center"><a href="BookingController?action=booknow&pid=<%=p.getPid()%>&cusid=<%=c.getId()%>">Book Now</a></div>
+				<br><br>
+				<div class="text-center"><a href="c-single-plan.jsp?pid=<%=p.getPid()%>">Book Now</a></div>
 			</div>
 			<%
 			}

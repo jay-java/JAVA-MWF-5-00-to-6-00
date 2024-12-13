@@ -71,7 +71,7 @@
                             <div class="main-menu  d-none d-lg-block">
                                 <nav>
                                     <ul id="navigation">
-                                        <li><a class="active" href="w-home.jsp">home</a></li>
+                                        <li><a class="active" href="c-home.jsp">home</a></li>
                                         <li><a href="#">Our Story</a></li>
                                         <li><a href="#">Gallery</a></li>
                                         <li><a href="#">Plans <i class="ti-angle-down"></i></a>

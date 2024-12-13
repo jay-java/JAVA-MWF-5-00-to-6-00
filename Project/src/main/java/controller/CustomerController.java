@@ -16,19 +16,20 @@ import model.WeddingPlanner;
 @WebServlet("/CustomerController")
 public class CustomerController extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-       
- 
-    public CustomerController() {
-        super();
-        // TODO Auto-generated constructor stub
-    }
 
-	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+	public CustomerController() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	protected void doGet(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		response.getWriter().append("Served at: ").append(request.getContextPath());
 	}
 
-	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+	protected void doPost(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
 		String action = request.getParameter("action");
 		if (action.equalsIgnoreCase("register")) {
 			Customer u = new Customer();
@@ -60,8 +61,7 @@ public class CustomerController extends HttpServlet {
 					HttpSession session = request.getSession();
 					session.setAttribute("data", u1);
 					request.getRequestDispatcher("c-home.jsp").forward(request, response);
-				}
-				else {
+				} else {
 					request.setAttribute("msg", "Password is incorrect");
 					request.getRequestDispatcher("c-login.jsp").forward(request, response);
 				}
