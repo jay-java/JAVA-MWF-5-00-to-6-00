@@ -73,7 +73,12 @@
                                     <ul id="navigation">
                                         <li><a class="active" href="w-home.jsp">home</a></li>
                                         <li><a href="#">Our Story</a></li>
-                                        <li><a href="#">Gallery</a></li>
+                                        <li><a href="#">Booking <i class="ti-angle-down"></i></a>
+                                            <ul class="submenu">
+                                                <li><a href="w-pending-booking.jsp">Pending List</a></li>
+                                                <li><a href="w-confirm-booking.jsp">Confirmed List</a></li>
+                                            </ul>
+                                        </li>
                                         <li><a href="#">Plans <i class="ti-angle-down"></i></a>
                                             <ul class="submenu">
                                                 <li><a href="w-add-plan.jsp">Add Plan</a></li>

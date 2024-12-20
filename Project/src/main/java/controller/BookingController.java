@@ -9,6 +9,7 @@ import javax.servlet.http.HttpServletResponse;
 
 import dao.BookingDao;
 import model.Booking;
+import model.User;
 
 /**
  * Servlet implementation class BookingController

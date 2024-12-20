@@ -73,7 +73,12 @@
                                     <ul id="navigation">
                                         <li><a class="active" href="c-home.jsp">home</a></li>
                                         <li><a href="#">Our Story</a></li>
-                                        <li><a href="#">Gallery</a></li>
+                                         <li><a href="#">Booking <i class="ti-angle-down"></i></a>
+                                            <ul class="submenu">
+                                                <li><a href="c-pending-booking.jsp">Pending Booking</a></li>
+                                                <li><a href="c-confirmed-booking.jsp">Confirmed Booking</a></li>
+                                            </ul>
+                                        </li>
                                         <li><a href="#">Plans <i class="ti-angle-down"></i></a>
                                             <ul class="submenu">
                                                 <li><a href="c-view-plan.jsp">View Plan</a></li>

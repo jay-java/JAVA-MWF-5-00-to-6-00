@@ -2,6 +2,9 @@ package dao;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.util.ArrayList;
+import java.util.List;
 
 import db_connection.DBConnection;
 import model.Booking;
@@ -21,5 +24,49 @@ public class BookingDao {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
+	}
+	public static List<Booking> getPendingBookingByCusId(int id){
+		List<Booking> list = new ArrayList<Booking>();
+		try {
+			Connection conn = DBConnection.createConnection();
+			String sql = "select * from booking where booking_status='pending' and cus_id=?";
+			PreparedStatement pst =conn.prepareStatement(sql);
+			pst.setInt(1, id);
+			ResultSet rs = pst.executeQuery();
+			while(rs.next()) {
+				Booking b = new Booking();
+				b.setBid(rs.getInt("bid"));
+				b.setPid(rs.getInt("pid"));
+				b.setCus_id(rs.getInt("cus_id"));
+				b.setBooking_status(rs.getString("booking_status"));
+				b.setPayment_status(rs.getString("payment_status"));
+				list.add(b);
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return list;
+	}
+	public static List<Booking> getPendingBookingByWeddingPlannerId(int pid){
+		List<Booking> list = new ArrayList<Booking>();
+		try {
+			Connection conn = DBConnection.createConnection();
+			String sql = "select * from booking where booking_status='pending' and pid=?";
+			PreparedStatement pst =conn.prepareStatement(sql);
+			pst.setInt(1, pid);
+			ResultSet rs = pst.executeQuery();
+			while(rs.next()) {
+				Booking b = new Booking();
+				b.setBid(rs.getInt("bid"));
+				b.setPid(rs.getInt("pid"));
+				b.setCus_id(rs.getInt("cus_id"));
+				b.setBooking_status(rs.getString("booking_status"));
+				b.setPayment_status(rs.getString("payment_status"));
+				list.add(b);
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return list;
 	}
 }
