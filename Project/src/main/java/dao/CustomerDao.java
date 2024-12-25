@@ -67,4 +67,27 @@ public class CustomerDao {
 		}
 		return u1;
 	}
+	public static Customer getCustomerByid(int id) {
+		Customer u1 = null;
+		try {
+			Connection conn = DBConnection.createConnection();
+			String sql = "select * from customer where id=?";
+			PreparedStatement pst = conn.prepareStatement(sql);
+			pst.setInt(1, id);
+			ResultSet rs =  pst.executeQuery();
+			System.out.println("result set data : "+rs);
+			if(rs.next()) {
+				u1= new Customer();
+				u1.setId(rs.getInt("id"));
+				u1.setName(rs.getString("name"));
+				u1.setContact(rs.getLong("contact"));
+				u1.setAddress(rs.getString("address"));
+				u1.setEmail(rs.getString("email"));
+				u1.setPassword(rs.getString("password"));
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return u1;
+	}
 }

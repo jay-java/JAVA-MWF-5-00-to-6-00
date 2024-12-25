@@ -44,20 +44,20 @@
     <fullyQualifiedTypeName name="dao.WeddingPlannerDao"/>
     <fullyQualifiedTypeName name="com.razorpay.Plan"/>
     <fullyQualifiedTypeName name="dao.PlanDao"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
-    <fullyQualifiedTypeName name="java.sql.ResultSet"/>
     <fullyQualifiedTypeName name="model.Plans"/>
-    <fullyQualifiedTypeName name="model.Customer"/>
     <fullyQualifiedTypeName name="dao.CustomerDao"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
-    <fullyQualifiedTypeName name="model.Booking"/>
     <fullyQualifiedTypeName name="java.sql.Connection"/>
     <fullyQualifiedTypeName name="db_connection.DBConnection"/>
     <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
-    <fullyQualifiedTypeName name="dao.BookingDao"/>
     <fullyQualifiedTypeName name="lombok.Data"/>
     <fullyQualifiedTypeName name="model.User"/>
     <fullyQualifiedTypeName name="lombok.ToString"/>
     <fullyQualifiedTypeName name="lombok.NoArgsConstructor"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.sql.ResultSet"/>
+    <fullyQualifiedTypeName name="model.Customer"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="model.Booking"/>
+    <fullyQualifiedTypeName name="dao.BookingDao"/>
 </qualifiedTypeNameHistroy>

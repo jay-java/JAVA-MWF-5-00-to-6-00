@@ -69,4 +69,39 @@ public class BookingDao {
 		}
 		return list;
 	}
+	
+	public static void updateBookingStatus(int bid) {
+		try {
+			Connection conn = DBConnection.createConnection();
+			String sql = "update booking set booking_status='confirm' where bid=?";
+			PreparedStatement pst =conn.prepareStatement(sql);
+			pst.setInt(1, bid);
+			pst.executeUpdate();
+			System.out.println("status updated");
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	public static List<Booking> getConfirmBookingByCusId(int id){
+		List<Booking> list = new ArrayList<Booking>();
+		try {
+			Connection conn = DBConnection.createConnection();
+			String sql = "select * from booking where booking_status='confirm' and cus_id=?";
+			PreparedStatement pst =conn.prepareStatement(sql);
+			pst.setInt(1, id);
+			ResultSet rs = pst.executeQuery();
+			while(rs.next()) {
+				Booking b = new Booking();
+				b.setBid(rs.getInt("bid"));
+				b.setPid(rs.getInt("pid"));
+				b.setCus_id(rs.getInt("cus_id"));
+				b.setBooking_status(rs.getString("booking_status"));
+				b.setPayment_status(rs.getString("payment_status"));
+				list.add(b);
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return list;
+	}
 }

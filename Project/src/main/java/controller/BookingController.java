@@ -40,6 +40,11 @@ public class BookingController extends HttpServlet {
 			BookingDao.insertBooking(b);
 			response.sendRedirect("c-home.jsp");
 		}
+		else if(action.equalsIgnoreCase("confirm")) {
+			int bid= Integer.parseInt(request.getParameter("bid"));
+			BookingDao.updateBookingStatus(bid);
+			response.sendRedirect("w-home.jsp");
+		}
 	}
 
 	/**
