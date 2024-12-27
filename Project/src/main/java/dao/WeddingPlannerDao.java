@@ -3,6 +3,8 @@ package dao;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
+import java.util.ArrayList;
+import java.util.List;
 
 import db_connection.DBConnection;
 import model.WeddingPlanner;
@@ -137,5 +139,27 @@ public class WeddingPlannerDao {
 			e.printStackTrace();
 		}
 		return u1;
+	}
+	public static List<WeddingPlanner> getAllWeddingPlanners(){
+		List<WeddingPlanner> list = new ArrayList<WeddingPlanner>();
+		try {
+			Connection conn = DBConnection.createConnection();
+			String sql = "select * from wp";
+			PreparedStatement pst = conn.prepareStatement(sql);
+			ResultSet rs = pst.executeQuery();
+			while(rs.next()) {
+				WeddingPlanner u1 = new WeddingPlanner();
+				u1.setId(rs.getInt("id"));
+				u1.setName(rs.getString("name"));
+				u1.setContact(rs.getLong("contact"));
+				u1.setAddress(rs.getString("address"));
+				u1.setEmail(rs.getString("email"));
+				u1.setPassword(rs.getString("password"));
+				list.add(u1);
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return list;
 	}
 }

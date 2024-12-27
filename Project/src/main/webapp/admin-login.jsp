@@ -1,56 +1,74 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
-	<%@include file="header.jsp" %>
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Insert title here</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="Dashboard">
+<meta name="keyword"
+	content="Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
+
+<title>DASHGUM - Bootstrap Admin Template</title>
+
+<!-- Bootstrap core CSS -->
+<link href="assets/css/bootstrap.css" rel="stylesheet">
+<!--external css-->
+<link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet" />
+
+<!-- Custom styles for this template -->
+<link href="assets/css/style.css" rel="stylesheet">
+<link href="assets/css/style-responsive.css" rel="stylesheet">
+
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 </head>
+
 <body>
-    <!-- attend_area -->
-    <div class="attending_area plus_padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-10 offset-xl-1 col-lg-10 offset-lg-1">
-                    <div class="main_attending_area">
-                        <div class="flower_1 d-none d-lg-block">
-                            <img src="img/appointment/flower-top.png" alt="">
-                        </div>
-                        <div class="flower_2 d-none d-lg-block">
-                            <img src="img/appointment/flower-bottom.png" alt="">
-                        </div>
-                        <div class="row justify-content-center">
-                            <div class="col-xl-7 col-lg-8">
-                                <div class="popup_box ">
-                                    <div class="popup_inner">
-                                        <div class="form_heading text-center">
-                                            <h3>Admin</h3>
-                                        </div>
-                                        <form action="#">
-                                            <div class="row">
-                                                <div class="col-xl-12">
-                                                    <input type="text" placeholder="Email">
-                                                </div>
-                                                <div class="col-xl-12">
-                                                    <input type="text" placeholder="Your Password">
-                                                </div>
-                                               
-                                                <div class="col-xl-12">
-                                                    <button type="submit" class="boxed_btn3">Register</button>
-                                                </div>
-                                            </div>
-                                        </form>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- / attend_area -->
-</body>
+
+	<!-- **********************************************************************************************************************************************************
+      MAIN CONTENT
+      *********************************************************************************************************************************************************** -->
+
+	<div id="login-page">
+		<div class="container">
+
+			<form class="form-login" action="AdminController" method="post">
+				<h2 class="form-login-heading">sign in now</h2>
+				<div class="login-wrap">
+					<input type="text" class="form-control" name="email" placeholder="email"
+						autofocus> <br> 
+					<input type="password" class="form-control" name="password" placeholder="Password"> 
+					
+					<button class="btn btn-theme btn-block" type="submit" name="action" value="login">
+						<i class="fa fa-lock"></i> SIGN IN
+					</button>
+					<hr>
+
+				</div>
+			</form>
+
+		</div>
+	</div>
+
+	<!-- js placed at the end of the document so the pages load faster -->
+	<script src="assets/js/jquery.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+
+	<!--BACKSTRETCH-->
+	<!-- You can use an image of whatever size. This script will stretch to fit in any screen size.-->
+	<script type="text/javascript"
+		src="assets/js/jquery.backstretch.min.js"></script>
+	<script>
+		$.backstretch("assets/img/login-bg.jpg", {
+			speed : 500
+		});
+	</script>
+
+
 </body>
 </html>
