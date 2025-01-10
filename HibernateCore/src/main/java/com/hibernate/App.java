@@ -8,7 +8,7 @@ import org.hibernate.cfg.Configuration;
 public class App {
 	public static void main(String[] args) {
 		System.out.println("Hello World!");
-		User u = new User(1, "java", 6987654, "ahmedabad");
+		User u = new User(5, "java", 6987654, "ahmedabad");
 
 		SessionFactory sf = new Configuration().configure("hibernate.cfg.xml").buildSessionFactory();
 		Session session = sf.openSession();

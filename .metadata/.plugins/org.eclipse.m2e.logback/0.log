@@ -447,3 +447,12 @@
 2025-01-08 17:00:01,382 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\HibernateCore\src\test\resources
 2025-01-08 17:00:28,776 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\HibernateCore\src\main\resources
 2025-01-08 17:00:28,780 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\HibernateCore\src\test\resources
+2025-01-08 17:02:14,802 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\HibernateCore\src\main\resources
+2025-01-08 17:02:14,805 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\HibernateCore\src\test\resources
+2025-01-08 17:55:09,026 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped oejs.Server@39c56d30{STOPPING}[12.0.12,sto=0]
+2025-01-08 17:55:09,035 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@5218ac8f{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2025-01-10 16:20:39,547 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-01-10 16:30:48,478 [main] INFO  org.hibernate.cfg.Environment - Hibernate 3.5.6-Final
+2025-01-10 16:30:48,517 [main] INFO  org.hibernate.cfg.Environment - hibernate.properties not found
+2025-01-10 16:30:48,521 [main] INFO  org.hibernate.cfg.Environment - Bytecode provider name : javassist
+2025-01-10 16:30:48,527 [main] INFO  org.hibernate.cfg.Environment - using JDK 1.4 java.sql.Timestamp handling
