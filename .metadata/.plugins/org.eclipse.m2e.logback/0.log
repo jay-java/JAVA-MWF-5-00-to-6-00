@@ -456,3 +456,345 @@
 2025-01-10 16:30:48,517 [main] INFO  org.hibernate.cfg.Environment - hibernate.properties not found
 2025-01-10 16:30:48,521 [main] INFO  org.hibernate.cfg.Environment - Bytecode provider name : javassist
 2025-01-10 16:30:48,527 [main] INFO  org.hibernate.cfg.Environment - using JDK 1.4 java.sql.Timestamp handling
+2025-01-10 17:33:10,861 [Worker-23: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+2025-01-10 17:33:11,276 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\HibernateCore\src\main\resources
+2025-01-10 17:33:11,282 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\HibernateCore\src\test\resources
+2025-01-10 17:33:25,381 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\HibernateCore\src\main\resources
+2025-01-10 17:33:25,384 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\HibernateCore\src\test\resources
+2025-01-11 12:41:06,360 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-01-20 16:26:53,404 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-01-20 16:27:15,216 [Worker-4: https://devstyle.codetogether.io/compositeArtifacts.jar] WARN  o.a.h.c.h.p.ResponseProcessCookies - ex-0000000046 Cookie rejected [_cfuvid="4Wv0aV3cW1FGMaf4pipJJG0HYDvL20M6KDDeUnnFwCY-1737370637157-0.0.1.1-604800000", domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "devstyle.codetogether.io"
+2025-01-20 16:27:15,468 [Worker-2: https://devstyle.codetogether.io/compositeArtifacts.xml] WARN  o.a.h.c.h.p.ResponseProcessCookies - ex-0000000067 Cookie rejected [_cfuvid="Rfd6B3JYiG8xn9Bva9lH0aZLlMHHlrrjJfBb7iGz5g4-1737370637410-0.0.1.1-604800000", domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "devstyle.codetogether.io"
+2025-01-20 16:27:15,715 [Worker-19: https://devstyle.codetogether.io/artifacts.jar] WARN  o.a.h.c.h.p.ResponseProcessCookies - ex-0000000078 Cookie rejected [_cfuvid="dmjiHGMPkQyIGFzqBsyHy5q3wlY_7Y4TpC1sjoJE7a8-1737370637659-0.0.1.1-604800000", domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "devstyle.codetogether.io"
+2025-01-20 16:27:16,473 [Worker-13: https://devstyle.codetogether.io/artifacts.xml] WARN  o.a.h.c.h.p.ResponseProcessCookies - ex-0000000084 Cookie rejected [_cfuvid="KJ98pHCLvqGbs7.jmvw5kd6EVLLH3yfu11iH4dW39Uo-1737370638403-0.0.1.1-604800000", domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "devstyle.codetogether.io"
+2025-01-20 16:27:16,755 [Worker-17: https://devstyle.codetogether.io/artifacts.xml.xz] WARN  o.a.h.c.h.p.ResponseProcessCookies - ex-0000000102 Cookie rejected [_cfuvid="mmxLJZ6A70jNzRlslH5EZNascW.timT1wvTXRlOKOrw-1737370638698-0.0.1.1-604800000", domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "devstyle.codetogether.io"
+2025-01-20 16:27:17,544 [Worker-21: https://devstyle.codetogether.io/site.xml] WARN  o.a.h.c.h.p.ResponseProcessCookies - ex-0000000105 Cookie rejected [_cfuvid="LA20Ku57WS53wsav0mv_oqK1BsemFWsXFFK_I1_ewNw-1737370639485-0.0.1.1-604800000", domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "devstyle.codetogether.io"
+2025-01-20 16:45:04,022 [Worker-34: Launching mavenrun-88e7902c-0f09-45e2-9d7a-4183fd1a1fde] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409 [640])
+2025-01-20 16:45:04,026 [Worker-34: Launching mavenrun-88e7902c-0f09-45e2-9d7a-4183fd1a1fde] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\jay-pc\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409
+2025-01-20 16:45:04,026 [Worker-34: Launching mavenrun-88e7902c-0f09-45e2-9d7a-4183fd1a1fde] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\jay-pc\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\aopalliance-1.0.jar
+2025-01-20 16:45:04,026 [Worker-34: Launching mavenrun-88e7902c-0f09-45e2-9d7a-4183fd1a1fde] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\jay-pc\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\guice-5.1.0.jar
+2025-01-20 16:45:04,027 [Worker-34: Launching mavenrun-88e7902c-0f09-45e2-9d7a-4183fd1a1fde] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\jay-pc\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\httpclient-4.5.14.jar
+2025-01-20 16:45:04,027 [Worker-34: Launching mavenrun-88e7902c-0f09-45e2-9d7a-4183fd1a1fde] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\jay-pc\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\httpcore-4.4.16.jar
+2025-01-20 16:45:04,027 [Worker-34: Launching mavenrun-88e7902c-0f09-45e2-9d7a-4183fd1a1fde] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\jay-pc\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\jansi-2.4.1.jar
+2025-01-20 16:45:04,028 [Worker-34: Launching mavenrun-88e7902c-0f09-45e2-9d7a-4183fd1a1fde] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\jay-pc\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\jcl-over-slf4j-1.7.36.jar
+2025-01-20 16:45:04,028 [Worker-34: Launching mavenrun-88e7902c-0f09-45e2-9d7a-4183fd1a1fde] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\jay-pc\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-artifact-3.9.9.jar
+2025-01-20 16:45:04,028 [Worker-34: Launching mavenrun-88e7902c-0f09-45e2-9d7a-4183fd1a1fde] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\jay-pc\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-builder-support-3.9.9.jar
+2025-01-20 16:45:04,028 [Worker-34: Launching mavenrun-88e7902c-0f09-45e2-9d7a-4183fd1a1fde] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\jay-pc\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-compat-3.9.9.jar
+2025-01-20 16:45:04,029 [Worker-34: Launching mavenrun-88e7902c-0f09-45e2-9d7a-4183fd1a1fde] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\jay-pc\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-core-3.9.9.jar
+2025-01-20 16:45:04,029 [Worker-34: Launching mavenrun-88e7902c-0f09-45e2-9d7a-4183fd1a1fde] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\jay-pc\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-embedder-3.9.9.jar
+2025-01-20 16:45:04,029 [Worker-34: Launching mavenrun-88e7902c-0f09-45e2-9d7a-4183fd1a1fde] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\jay-pc\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-model-3.9.9.jar
+2025-01-20 16:45:04,029 [Worker-34: Launching mavenrun-88e7902c-0f09-45e2-9d7a-4183fd1a1fde] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\jay-pc\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-model-builder-3.9.9.jar
+2025-01-20 16:45:04,030 [Worker-34: Launching mavenrun-88e7902c-0f09-45e2-9d7a-4183fd1a1fde] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\jay-pc\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-plugin-api-3.9.9.jar
+2025-01-20 16:45:04,030 [Worker-34: Launching mavenrun-88e7902c-0f09-45e2-9d7a-4183fd1a1fde] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\jay-pc\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-repository-metadata-3.9.9.jar
+2025-01-20 16:45:04,030 [Worker-34: Launching mavenrun-88e7902c-0f09-45e2-9d7a-4183fd1a1fde] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\jay-pc\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-api-1.9.22.jar
+2025-01-20 16:45:04,030 [Worker-34: Launching mavenrun-88e7902c-0f09-45e2-9d7a-4183fd1a1fde] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\jay-pc\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-connector-basic-1.9.22.jar
+2025-01-20 16:45:04,031 [Worker-34: Launching mavenrun-88e7902c-0f09-45e2-9d7a-4183fd1a1fde] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\jay-pc\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-impl-1.9.22.jar
+2025-01-20 16:45:04,031 [Worker-34: Launching mavenrun-88e7902c-0f09-45e2-9d7a-4183fd1a1fde] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\jay-pc\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-named-locks-1.9.22.jar
+2025-01-20 16:45:04,031 [Worker-34: Launching mavenrun-88e7902c-0f09-45e2-9d7a-4183fd1a1fde] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\jay-pc\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-provider-3.9.9.jar
+2025-01-20 16:45:04,033 [Worker-34: Launching mavenrun-88e7902c-0f09-45e2-9d7a-4183fd1a1fde] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\jay-pc\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-spi-1.9.22.jar
+2025-01-20 16:45:04,033 [Worker-34: Launching mavenrun-88e7902c-0f09-45e2-9d7a-4183fd1a1fde] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\jay-pc\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-transport-file-1.9.22.jar
+2025-01-20 16:45:04,033 [Worker-34: Launching mavenrun-88e7902c-0f09-45e2-9d7a-4183fd1a1fde] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\jay-pc\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-transport-http-1.9.22.jar
+2025-01-20 16:45:04,034 [Worker-34: Launching mavenrun-88e7902c-0f09-45e2-9d7a-4183fd1a1fde] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\jay-pc\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-transport-wagon-1.9.22.jar
+2025-01-20 16:45:04,034 [Worker-34: Launching mavenrun-88e7902c-0f09-45e2-9d7a-4183fd1a1fde] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\jay-pc\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-util-1.9.22.jar
+2025-01-20 16:45:04,034 [Worker-34: Launching mavenrun-88e7902c-0f09-45e2-9d7a-4183fd1a1fde] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\jay-pc\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-settings-3.9.9.jar
+2025-01-20 16:45:04,034 [Worker-34: Launching mavenrun-88e7902c-0f09-45e2-9d7a-4183fd1a1fde] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\jay-pc\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-settings-builder-3.9.9.jar
+2025-01-20 16:45:04,035 [Worker-34: Launching mavenrun-88e7902c-0f09-45e2-9d7a-4183fd1a1fde] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\jay-pc\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-shared-utils-3.4.2.jar
+2025-01-20 16:45:04,035 [Worker-34: Launching mavenrun-88e7902c-0f09-45e2-9d7a-4183fd1a1fde] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\jay-pc\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\org.eclipse.sisu.inject-0.9.0.M3.jar
+2025-01-20 16:45:04,035 [Worker-34: Launching mavenrun-88e7902c-0f09-45e2-9d7a-4183fd1a1fde] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\jay-pc\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\org.eclipse.sisu.plexus-0.9.0.M3.jar
+2025-01-20 16:45:04,035 [Worker-34: Launching mavenrun-88e7902c-0f09-45e2-9d7a-4183fd1a1fde] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\jay-pc\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-build-api-0.0.7.jar
+2025-01-20 16:45:04,036 [Worker-34: Launching mavenrun-88e7902c-0f09-45e2-9d7a-4183fd1a1fde] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\jay-pc\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-build-api-1.2.0.jar
+2025-01-20 16:45:04,036 [Worker-34: Launching mavenrun-88e7902c-0f09-45e2-9d7a-4183fd1a1fde] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\jay-pc\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-cipher-2.0.jar
+2025-01-20 16:45:04,036 [Worker-34: Launching mavenrun-88e7902c-0f09-45e2-9d7a-4183fd1a1fde] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\jay-pc\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-classworlds-2.8.0.jar
+2025-01-20 16:45:04,037 [Worker-34: Launching mavenrun-88e7902c-0f09-45e2-9d7a-4183fd1a1fde] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\jay-pc\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-component-annotations-2.1.0.jar
+2025-01-20 16:45:04,037 [Worker-34: Launching mavenrun-88e7902c-0f09-45e2-9d7a-4183fd1a1fde] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\jay-pc\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-interpolation-1.27.jar
+2025-01-20 16:45:04,037 [Worker-34: Launching mavenrun-88e7902c-0f09-45e2-9d7a-4183fd1a1fde] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\jay-pc\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-sec-dispatcher-2.0.jar
+2025-01-20 16:45:04,037 [Worker-34: Launching mavenrun-88e7902c-0f09-45e2-9d7a-4183fd1a1fde] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\jay-pc\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-utils-3.5.1.jar
+2025-01-20 16:45:04,037 [Worker-34: Launching mavenrun-88e7902c-0f09-45e2-9d7a-4183fd1a1fde] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\jay-pc\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-xml-3.0.1.jar
+2025-01-20 16:45:04,038 [Worker-34: Launching mavenrun-88e7902c-0f09-45e2-9d7a-4183fd1a1fde] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\jay-pc\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-file-3.5.3.jar
+2025-01-20 16:45:04,038 [Worker-34: Launching mavenrun-88e7902c-0f09-45e2-9d7a-4183fd1a1fde] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\jay-pc\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-http-3.5.3.jar
+2025-01-20 16:45:04,038 [Worker-34: Launching mavenrun-88e7902c-0f09-45e2-9d7a-4183fd1a1fde] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\jay-pc\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-http-shared-3.5.3.jar
+2025-01-20 16:45:04,039 [Worker-34: Launching mavenrun-88e7902c-0f09-45e2-9d7a-4183fd1a1fde] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\jay-pc\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-provider-api-3.5.3.jar
+2025-01-20 16:45:04,041 [Worker-34: Launching mavenrun-88e7902c-0f09-45e2-9d7a-4183fd1a1fde] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_33.3.0.jre [16])
+2025-01-20 16:45:04,041 [Worker-34: Launching mavenrun-88e7902c-0f09-45e2-9d7a-4183fd1a1fde] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\jay-pc\.p2\pool\plugins\com.google.guava_33.3.0.jre.jar
+2025-01-20 16:45:04,042 [Worker-34: Launching mavenrun-88e7902c-0f09-45e2-9d7a-4183fd1a1fde] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_2.0.16 [1005])
+2025-01-20 16:45:04,042 [Worker-34: Launching mavenrun-88e7902c-0f09-45e2-9d7a-4183fd1a1fde] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\jay-pc\.p2\pool\plugins\slf4j.api_2.0.16.jar
+2025-01-20 16:45:04,042 [Worker-34: Launching mavenrun-88e7902c-0f09-45e2-9d7a-4183fd1a1fde] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.inject_1.0.0.v20091030 [1059])
+2025-01-20 16:45:04,043 [Worker-34: Launching mavenrun-88e7902c-0f09-45e2-9d7a-4183fd1a1fde] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\jay-pc\.p2\pool\plugins\javax.inject_1.0.0.v20091030.jar
+2025-01-20 16:45:04,043 [Worker-34: Launching mavenrun-88e7902c-0f09-45e2-9d7a-4183fd1a1fde] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.annotation_1.3.5.v20200909-1856 [1058])
+2025-01-20 16:45:04,043 [Worker-34: Launching mavenrun-88e7902c-0f09-45e2-9d7a-4183fd1a1fde] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\jay-pc\.p2\pool\plugins\javax.annotation_1.3.5.v20200909-1856.jar
+2025-01-20 16:45:04,043 [Worker-34: Launching mavenrun-88e7902c-0f09-45e2-9d7a-4183fd1a1fde] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.cli_1.9.0 [78])
+2025-01-20 16:45:04,044 [Worker-34: Launching mavenrun-88e7902c-0f09-45e2-9d7a-4183fd1a1fde] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\jay-pc\.p2\pool\plugins\org.apache.commons.cli_1.9.0.jar
+2025-01-20 16:45:04,044 [Worker-34: Launching mavenrun-88e7902c-0f09-45e2-9d7a-4183fd1a1fde] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.commons-codec_1.16.0 [81])
+2025-01-20 16:45:04,044 [Worker-34: Launching mavenrun-88e7902c-0f09-45e2-9d7a-4183fd1a1fde] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\jay-pc\.p2\pool\plugins\org.apache.commons.commons-codec_1.16.0.jar
+2025-01-20 16:45:04,045 [Worker-34: Launching mavenrun-88e7902c-0f09-45e2-9d7a-4183fd1a1fde] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava.failureaccess_1.0.2 [17])
+2025-01-20 16:45:04,045 [Worker-34: Launching mavenrun-88e7902c-0f09-45e2-9d7a-4183fd1a1fde] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\jay-pc\.p2\pool\plugins\com.google.guava.failureaccess_1.0.2.jar
+2025-01-20 16:45:04,051 [Worker-34: Launching mavenrun-88e7902c-0f09-45e2-9d7a-4183fd1a1fde] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\jay-pc\AppData\Local\Temp\m2e-archetypeGenerator14814890898463752337":
+2025-01-20 16:45:04,056 [Worker-34: Launching mavenrun-88e7902c-0f09-45e2-9d7a-4183fd1a1fde] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -DarchetypeGroupId=org.apache.maven.archetypes -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.1 -DgroupId=com.core -DartifactId=SpringCore -Dversion=0.0.1-SNAPSHOT -Dpackage=com.core -DoutputDirectory="C:\Users\jay-pc\JAVA MWF 5-00 to 6-00" -Dstyle.color=always -U archetype:generate
+2025-01-20 16:45:14,533 [Worker-35: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\SpringCore\pom.xml
+2025-01-20 16:45:15,530 [Worker-35: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.core:SpringCore:0.0.1-SNAPSHOT @ C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\SpringCore\pom.xml.
+2025-01-20 16:45:17,012 [Worker-35: Creating maven-archetype-quickstart] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringCore/src/main/java
+2025-01-20 16:45:17,014 [Worker-35: Creating maven-archetype-quickstart] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringCore/src/main/resources
+2025-01-20 16:45:17,019 [Worker-35: Creating maven-archetype-quickstart] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringCore/src/test/java
+2025-01-20 16:45:17,020 [Worker-35: Creating maven-archetype-quickstart] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringCore/src/test/resources
+2025-01-20 16:45:17,149 [Worker-35: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 2 sec
+2025-01-20 16:45:21,454 [Worker-38: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+2025-01-20 16:45:21,514 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\HibernateCore\src\main\resources
+2025-01-20 16:45:21,519 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\HibernateCore\src\test\resources
+2025-01-20 16:45:23,657 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\SpringCore\src\main\resources
+2025-01-20 16:45:23,660 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\SpringCore\src\test\resources
+2025-01-20 16:48:45,258 [Worker-38: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.core:SpringCore:0.0.1-SNAPSHOT @ C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\SpringCore\pom.xml.
+2025-01-20 16:48:45,532 [Worker-38: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/micrometer/micrometer-observation/1.14.0/micrometer-observation-1.14.0.pom
+2025-01-20 16:48:45,547 [Worker-38: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/micrometer/micrometer-observation/1.14.0/micrometer-observation-1.14.0.pom
+2025-01-20 16:48:45,574 [Worker-38: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/micrometer/micrometer-commons/1.14.0/micrometer-commons-1.14.0.pom
+2025-01-20 16:48:45,580 [Worker-38: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/micrometer/micrometer-commons/1.14.0/micrometer-commons-1.14.0.pom
+2025-01-20 16:48:45,650 [Worker-38: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/micrometer/micrometer-observation/1.14.0/micrometer-observation-1.14.0.jar
+2025-01-20 16:48:45,676 [Worker-38: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/micrometer/micrometer-observation/1.14.0/micrometer-observation-1.14.0.jar
+2025-01-20 16:48:45,697 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/micrometer/micrometer-commons/1.14.0/micrometer-commons-1.14.0.jar
+2025-01-20 16:48:45,717 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/micrometer/micrometer-commons/1.14.0/micrometer-commons-1.14.0.jar
+2025-01-20 16:48:45,860 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\SpringCore\src\main\resources
+2025-01-20 16:48:45,864 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\SpringCore\src\test\resources
+2025-01-20 16:48:46,884 [Worker-45: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/micrometer/micrometer-observation/1.14.0/micrometer-observation-1.14.0-sources.jar
+2025-01-20 16:48:46,901 [Worker-45: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/micrometer/micrometer-observation/1.14.0/micrometer-observation-1.14.0-sources.jar
+2025-01-20 16:48:46,906 [Worker-45: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.micrometer:micrometer-observation:1.14.0
+2025-01-20 16:48:46,953 [Worker-45: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/micrometer/micrometer-commons/1.14.0/micrometer-commons-1.14.0-sources.jar
+2025-01-20 16:48:46,968 [Worker-45: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/micrometer/micrometer-commons/1.14.0/micrometer-commons-1.14.0-sources.jar
+2025-01-20 16:48:46,973 [Worker-45: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.micrometer:micrometer-commons:1.14.0
+2025-01-20 16:48:47,310 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\SpringCore\src\main\resources
+2025-01-20 16:48:47,316 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\SpringCore\src\test\resources
+2025-01-20 16:49:36,095 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\SpringCore\src\main\resources
+2025-01-20 16:49:36,098 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\SpringCore\src\test\resources
+2025-01-20 16:50:08,940 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\SpringCore\src\main\resources
+2025-01-20 16:50:08,943 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\SpringCore\src\test\resources
+2025-01-20 16:50:54,073 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\SpringCore\src\main\resources
+2025-01-20 16:50:54,076 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\SpringCore\src\test\resources
+2025-01-20 16:51:00,604 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\SpringCore\src\main\resources
+2025-01-20 16:51:00,606 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\SpringCore\src\test\resources
+2025-01-20 16:52:22,086 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\SpringCore\src\main\resources
+2025-01-20 16:52:22,089 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\SpringCore\src\test\resources
+2025-01-20 16:52:31,846 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\SpringCore\src\main\resources
+2025-01-20 16:52:31,848 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\SpringCore\src\test\resources
+2025-01-20 16:52:51,512 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\SpringCore\src\main\resources
+2025-01-20 16:52:51,515 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\SpringCore\src\test\resources
+2025-01-20 16:52:54,621 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\SpringCore\src\main\resources
+2025-01-20 16:52:54,623 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\SpringCore\src\test\resources
+2025-01-20 16:52:58,376 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\SpringCore\src\main\resources
+2025-01-20 16:52:58,379 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\SpringCore\src\test\resources
+2025-01-20 16:53:07,292 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\SpringCore\src\main\resources
+2025-01-20 16:53:07,293 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\SpringCore\src\test\resources
+2025-01-20 16:53:11,768 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\SpringCore\src\main\resources
+2025-01-20 16:53:11,771 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\SpringCore\src\test\resources
+2025-01-20 16:53:36,470 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\SpringCore\src\main\resources
+2025-01-20 16:53:36,473 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\SpringCore\src\test\resources
+2025-01-20 16:53:41,462 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\SpringCore\src\main\resources
+2025-01-20 16:53:41,465 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\SpringCore\src\test\resources
+2025-01-20 16:54:26,487 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\SpringCore\src\main\resources
+2025-01-20 16:54:26,489 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\SpringCore\src\test\resources
+2025-01-20 16:55:16,695 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\SpringCore\src\main\resources
+2025-01-20 16:55:16,698 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\SpringCore\src\test\resources
+2025-01-20 16:55:24,235 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\SpringCore\src\main\resources
+2025-01-20 16:55:24,238 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\SpringCore\src\test\resources
+2025-01-20 16:55:50,062 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\SpringCore\src\main\resources
+2025-01-20 16:55:50,065 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\SpringCore\src\test\resources
+2025-01-20 16:56:18,082 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\SpringCore\src\main\resources
+2025-01-20 16:56:18,085 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\SpringCore\src\test\resources
+2025-01-20 16:56:22,094 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\SpringCore\src\main\resources
+2025-01-20 16:56:22,097 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\SpringCore\src\test\resources
+2025-01-20 16:56:30,126 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\SpringCore\src\main\resources
+2025-01-20 16:56:30,128 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\SpringCore\src\test\resources
+2025-01-20 16:57:06,077 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\SpringCore\src\main\resources
+2025-01-20 16:57:06,079 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\SpringCore\src\test\resources
+2025-01-20 16:57:08,600 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\SpringCore\src\main\resources
+2025-01-20 16:57:08,602 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\SpringCore\src\test\resources
+2025-01-20 16:57:22,057 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\SpringCore\src\main\resources
+2025-01-20 16:57:22,059 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\SpringCore\src\test\resources
+2025-01-20 16:57:38,389 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\SpringCore\src\main\resources
+2025-01-20 16:57:38,392 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\SpringCore\src\test\resources
+2025-01-20 16:57:49,669 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\SpringCore\src\main\resources
+2025-01-20 16:57:49,671 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\SpringCore\src\test\resources
+2025-01-20 16:58:10,754 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\SpringCore\src\main\resources
+2025-01-20 16:58:10,757 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\SpringCore\src\test\resources
+2025-01-20 16:58:11,793 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\SpringCore\src\main\resources
+2025-01-20 16:58:11,795 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\SpringCore\src\test\resources
+2025-01-20 16:59:14,205 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\SpringCore\src\main\resources
+2025-01-20 16:59:14,208 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\SpringCore\src\test\resources
+2025-01-20 16:59:22,325 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\SpringCore\src\main\resources
+2025-01-20 16:59:22,328 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\SpringCore\src\test\resources
+2025-01-20 16:59:29,957 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\SpringCore\src\main\resources
+2025-01-20 16:59:29,960 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\SpringCore\src\test\resources
+2025-01-20 16:59:50,377 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\SpringCore\src\main\resources
+2025-01-20 16:59:50,379 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\SpringCore\src\test\resources
+2025-01-20 17:00:52,821 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\SpringCore\src\main\resources
+2025-01-20 17:00:52,823 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\SpringCore\src\test\resources
+2025-01-20 17:01:49,636 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\SpringCore\src\main\resources
+2025-01-20 17:01:49,638 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\SpringCore\src\test\resources
+2025-01-20 17:02:23,029 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\SpringCore\src\main\resources
+2025-01-20 17:02:23,032 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\SpringCore\src\test\resources
+2025-01-20 17:02:32,703 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\SpringCore\src\main\resources
+2025-01-20 17:02:32,705 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\SpringCore\src\test\resources
+2025-01-20 17:02:49,826 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\SpringCore\src\main\resources
+2025-01-20 17:02:49,828 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\SpringCore\src\test\resources
+2025-01-20 17:03:04,588 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\SpringCore\src\main\resources
+2025-01-20 17:03:04,590 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\SpringCore\src\test\resources
+2025-01-20 17:03:13,542 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\SpringCore\src\main\resources
+2025-01-20 17:03:13,545 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\SpringCore\src\test\resources
+2025-01-20 17:05:04,406 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\SpringCore\src\main\resources
+2025-01-20 17:05:04,408 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\SpringCore\src\test\resources
+2025-01-20 17:05:06,357 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\SpringCore\src\main\resources
+2025-01-20 17:05:06,360 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\SpringCore\src\test\resources
+2025-01-20 17:05:15,477 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\SpringCore\src\main\resources
+2025-01-20 17:05:15,479 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\SpringCore\src\test\resources
+2025-01-20 17:05:39,222 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-20 17:05:39,224 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-01-20 17:07:31,357 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-20 17:07:31,360 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-01-20 17:07:54,647 [Worker-48: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-01-20 17:07:54,983 [Worker-48: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.core:SpringCore:0.0.1-SNAPSHOT @ C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\SpringCore\pom.xml.
+2025-01-20 17:07:55,097 [Worker-48: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringCore/src/main/java
+2025-01-20 17:07:55,099 [Worker-48: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringCore/src/main/resources
+2025-01-20 17:07:55,103 [Worker-48: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringCore/src/test/java
+2025-01-20 17:07:55,103 [Worker-48: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringCore/src/test/resources
+2025-01-20 17:07:55,253 [Worker-48: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2025-01-20 17:07:55,402 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-20 17:07:55,404 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-01-20 17:08:00,035 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\HibernateCore\src\main\resources
+2025-01-20 17:08:00,039 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\HibernateCore\src\test\resources
+2025-01-20 17:08:01,032 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-20 17:08:01,035 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-01-20 17:08:06,615 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\HibernateCore\src\main\resources
+2025-01-20 17:08:06,617 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\jay-pc\JAVA MWF 5-00 to 6-00\HibernateCore\src\test\resources
+2025-01-20 17:08:07,286 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-20 17:08:07,289 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-01-20 17:08:37,187 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-20 17:08:37,190 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-01-20 17:08:55,881 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-20 17:08:55,885 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-01-20 17:08:58,361 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-20 17:08:58,364 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-01-20 17:08:59,663 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-20 17:08:59,665 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-01-20 17:09:18,913 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-20 17:09:18,916 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-01-20 17:09:24,042 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-20 17:09:24,045 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-01-20 17:10:16,983 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-20 17:10:16,986 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-01-20 17:10:23,299 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-20 17:10:23,302 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-01-20 17:10:48,105 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-20 17:10:48,108 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-01-20 17:10:50,186 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-20 17:10:50,189 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-01-20 17:11:27,075 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-20 17:11:27,078 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-01-20 17:11:56,607 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-20 17:11:56,614 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-01-20 17:12:16,795 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-20 17:12:16,797 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-01-20 17:12:19,710 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-20 17:12:19,713 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-01-20 17:12:42,708 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-20 17:12:42,712 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-01-20 17:12:57,974 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-20 17:12:57,976 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-01-20 17:13:04,419 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-20 17:13:04,422 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-01-20 17:13:13,132 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-20 17:13:13,135 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-01-20 17:13:48,950 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-20 17:13:48,953 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-01-20 17:14:32,051 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-20 17:14:32,054 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-01-20 17:14:33,709 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-20 17:14:33,711 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-01-20 17:14:38,051 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-20 17:14:38,054 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-01-20 17:15:05,193 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-20 17:15:05,196 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-01-20 17:15:08,734 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-20 17:15:08,737 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-01-20 17:15:30,446 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-20 17:15:30,448 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-01-20 17:15:39,765 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-20 17:15:39,768 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-01-20 17:19:14,609 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-20 17:19:14,612 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-01-20 17:19:54,161 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-20 17:19:54,163 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-01-20 17:20:03,552 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-20 17:20:03,556 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-01-20 17:20:07,672 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-20 17:20:07,674 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-01-20 17:20:26,191 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-20 17:20:26,194 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-01-20 17:20:28,721 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-20 17:20:28,724 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-01-20 17:20:55,624 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-20 17:20:55,626 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-01-20 17:21:05,191 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-20 17:21:05,193 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-01-20 17:21:51,701 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-20 17:21:51,708 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-01-20 17:22:18,857 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-20 17:22:18,860 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-01-20 17:22:19,938 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-20 17:22:19,940 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-01-20 17:22:39,996 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-20 17:22:39,999 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-01-20 17:22:58,274 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-20 17:22:58,277 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-01-20 17:23:07,747 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-20 17:23:07,749 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-01-20 17:23:21,639 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-20 17:23:21,642 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-01-20 17:23:23,867 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-20 17:23:23,870 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-01-20 17:23:31,917 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-20 17:23:31,919 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-01-20 17:23:50,156 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-20 17:23:50,159 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-01-20 17:24:00,264 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-20 17:24:00,268 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-01-20 17:24:04,036 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-20 17:24:04,039 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-01-20 17:24:07,183 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-20 17:24:07,186 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-01-20 17:24:27,922 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-20 17:24:27,924 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-01-20 17:24:43,114 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-20 17:24:43,116 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-01-20 17:25:40,286 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-20 17:25:40,289 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-01-20 17:25:47,702 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-20 17:25:47,705 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-01-20 17:26:20,539 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-20 17:26:20,541 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-01-20 17:26:50,428 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-20 17:26:50,431 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-01-20 17:26:57,786 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-20 17:26:57,789 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-01-20 17:26:59,109 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-20 17:26:59,112 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-01-20 17:27:24,468 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-20 17:27:24,471 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-01-20 17:27:40,687 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-20 17:27:40,690 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-01-20 17:28:21,028 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-20 17:28:21,031 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-01-20 17:28:31,605 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-20 17:28:31,608 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-01-20 17:28:39,294 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-20 17:28:39,297 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-01-20 17:28:42,355 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-20 17:28:42,357 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-01-20 17:28:54,254 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-20 17:28:54,256 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-01-20 17:29:04,613 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-20 17:29:04,615 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-01-20 17:30:34,984 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-20 17:30:34,986 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-01-20 17:30:39,140 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-20 17:30:39,143 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-01-20 17:31:06,157 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-20 17:31:06,159 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-01-20 17:31:19,026 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-20 17:31:19,029 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
