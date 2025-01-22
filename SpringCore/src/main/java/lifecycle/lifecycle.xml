@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+		https://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context
+		https://www.springframework.org/schema/context/spring-context.xsd">
+	<context:annotation-config />
+	<!-- by xml -->
+	<bean class="lifecycle.User" name="u1" init-method="startBean"
+		destroy-method="stopBean">
+		<property name="id" value="1" />
+		<property name="name" value="java" />
+	</bean>
+	
+	<!-- by interface -->
+	<bean class="lifecycle.User1" name="u2">
+		<property name="id" value="1" />
+		<property name="name" value="java" />
+	</bean>
+
+	<!-- by annotation -->
+	<bean class="lifecycle.User2" name="u3">
+		<property name="id" value="1" />
+		<property name="name" value="java" />
+	</bean>
+
+</beans>
