@@ -77,7 +77,6 @@ public class UserController {
 		List<User> list = this.dao.getAllUser();
 		m.addAttribute("list", list);
 		return "home";
-
 	}
 
 	@RequestMapping(value = "/edit/{id}")

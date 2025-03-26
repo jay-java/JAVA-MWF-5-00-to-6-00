@@ -16,7 +16,7 @@ import lombok.ToString;
 public class Product {
 
 	@Id
-	private int pid;
+	private int id;
 	private String pname;
 	private double pprice;
 }
